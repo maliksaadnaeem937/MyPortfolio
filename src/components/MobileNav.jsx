@@ -25,17 +25,17 @@ export default function MobileNav({ toggleMenu, menuOpen }) {
       </div>
 
       <div className="flex flex-col gap-6 px-6 py-8 text-lg font-medium">
-        <a href="/dashboard#home" className="hover:underline">
+        <a href="#home" className="hover:underline">
           Home
         </a>
        
-        <a href="/dashboard#about" className="hover:underline">
+        <a href="#about" className="hover:underline">
           About
         </a>
-         <a href="/dashboard#work" className="hover:underline">
+         <a href="#work" className="hover:underline">
           Work
         </a>
-        <a href="/dashboard#contact" className="hover:underline">
+        <a href="#contact" className="hover:underline">
           Contact
         </a>
 

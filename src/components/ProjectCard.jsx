@@ -21,7 +21,7 @@ export default function ProjectCard({ project }) {
         </div>
       </div>
 
-      <div className="w-full sm:w-70 lg:w-90 ">
+      <div className="w-full sm:w-90">
         <NavLink to={project.link} className="w-full">
           <img
             src={project.image}

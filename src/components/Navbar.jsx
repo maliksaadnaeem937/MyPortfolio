@@ -33,14 +33,14 @@ export default function Navbar() {
       <div className="hidden sm:block">
         <div className="flex gap-x-6 text-sm font-semibold tracking-wide text-blue-500">
           <a
-            href="/dashboard#home"
+            href="#home"
             className="hover:text-indigo-500 hover:scale-105 transition-transform duration-200"
           >
             Home
           </a>
 
           <a
-            href="/dashboard#about"
+            href="#about"
             className="hover:text-indigo-500  hover:scale-105 transition-transform duration-200"
           >
             About
@@ -52,7 +52,7 @@ export default function Navbar() {
             Work
           </a>
           <a
-            href="/dashboard#contact"
+            href="#contact"
             className="hover:text-indigo-500  hover:scale-105 transition-transform duration-200"
           >
             Contact
