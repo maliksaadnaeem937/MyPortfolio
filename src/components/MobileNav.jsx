@@ -11,7 +11,7 @@ export default function MobileNav({ toggleMenu, menuOpen }) {
       <div className="flex items-center justify-between px-4 py-5 border-b border-gray-700">
         <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-gray-300">
           <img
-            src="../src/assets/Image.jpg"
+            src="/Image.jpg"
             alt="Logo"
             className="w-full h-full object-cover"
           />

@@ -32,7 +32,17 @@ export default function Hero() {
           </p>
 
           <div>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded shadow-md transition">
+            <button
+              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded shadow-md transition"
+              onClick={() => {
+                const phone = "923467560108"; // No plus sign
+                const message = "Hello! I'm interested in your services.";
+                const url = `https://wa.me/${phone}?text=${encodeURIComponent(
+                  message
+                )}`;
+                window.open(url, "_blank");
+              }}
+            >
               Let’s Talk
             </button>
           </div>
@@ -40,7 +50,7 @@ export default function Hero() {
 
         <section className="w-full max-w-xs sm:max-w-sm lg:max-w-md animate-fade-in">
           <img
-            src="/src/assets/Image.jpg"
+            src="/Image.jpg"
             className="w-full h-auto rounded-2xl shadow-xl object-cover"
             alt="Hero"
           />

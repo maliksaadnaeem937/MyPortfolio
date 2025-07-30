@@ -24,7 +24,7 @@ export default function Navbar() {
     <nav className="flex justify-between items-center px-6 py-4 bg-gray-800 opacity-90 fixed top-0 left-0 w-full z-50 shadow-lg h-20">
       <div className="w-[52px] h-[52px] rounded-full overflow-hidden border-2 border-white shadow-md">
         <img
-          src="../src/assets/Image.jpg"
+          src="/Image.jpg"
           alt="Logo"
           className="w-full h-full object-cover"
         />
