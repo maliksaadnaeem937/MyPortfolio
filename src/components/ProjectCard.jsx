@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="w-full max-w-3xl mx-auto bg-white   rounded-xl   shadow-lg p-6 flex flex-col sm:flex-col items-center gap-6 transition hover:shadow-xl">
+    <div className="w-full max-w-3xl mx-auto bg-white  justify-center items-center rounded-xl   shadow-lg p-6 flex flex-col sm:flex-col  gap-6 transition hover:shadow-xl">
       <div className="text-center sm:text-left">
-        <h2 className="text-2xl font-semibold text-gray-800 mb-2">
+        <h2 className="text-2xl text-center font-semibold text-gray-800 mb-2">
           {project.title}
         </h2>
 
@@ -21,7 +21,7 @@ export default function ProjectCard({ project }) {
         </div>
       </div>
 
-      <div className="w-full sm:w-10 ">
+      <div className="w-full sm:w-70 lg:w-90 ">
         <NavLink to={project.link} className="w-full">
           <img
             src={project.image}
